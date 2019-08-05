@@ -23,7 +23,7 @@ Citizen.CreateThread(function()
              DrawText3D(Farm.x, Farm.y, Farm.z, "[~r~E~w~] For at starte med at høste")
              
              if IsControlJustPressed(0, 38) then
-                    TaskStartScenarioInPlace(PlayerPedId(), 'WORLD_HUMAN_GARDENER_PLANT', 0, true)
+                    TaskStartScenarioInPlace(PlayerPedId(), 'PROP_HUMAN_PARKING_METER', 0, true)
                 end
             end
         end
